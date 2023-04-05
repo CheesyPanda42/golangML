@@ -115,7 +115,7 @@ func main() {
 				gameData := game.(map[string]interface{})
 
 				// Get the game ID
-				gameID := gameData["gamePk"].(float64)
+				gameID := gameData["gamePk"].(int64)
 
 				// Get the game date
 				gameDate := gameData["gameDate"].(string)
